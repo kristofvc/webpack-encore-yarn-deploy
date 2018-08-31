@@ -1,0 +1,8 @@
+---
+  - name: Install node_modules through Yarn
+    shell: chdir={{encore_path}}
+      yarn install {{yarn_options}}
+
+  - name: Run webpack encore
+    shell: chdir={{encore_path}}
+      yarn run encore {{encore_environment}}

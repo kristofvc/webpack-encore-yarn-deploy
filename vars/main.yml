@@ -1,0 +1,2 @@
+---
+ansistrano_symfony_after_assets_tasks_file: "../../kristofvc.webpack_encore_yarn_deploy/yarn/after_assets.yml"

@@ -1,0 +1,25 @@
+dependencies:
+  - cbrunnkvist.ansistrano-symfony-deploy
+
+galaxy_info:
+  author: Kristof Van Cauwenbergh
+  description: Ansible role for adding building assets with webpack encore, with yarn to a symfony4 deploy
+  license: MIT
+  min_ansible_version: 2.6
+  role_name: webpack_encore_yarn_deploy
+  platforms:
+    - name: GenericLinux
+      versions:
+        - all
+  categories:
+    - yarn
+    - web
+    - symfony
+    - webpack
+    - webpack-encore
+    - encore
+    - ansistrano
+    - ansistrano-deploy
+    - ansistrano-symfony-deploy
+    - deploy
+    - deployment

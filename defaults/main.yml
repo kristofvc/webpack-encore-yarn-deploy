@@ -1,0 +1,17 @@
+---
+# path where to run the commands
+encore_path: "/"
+
+# yarn install --help
+yarn_options: ""
+
+# which version of assets to deploy, by default this could be dev, dev-server or production
+encore_environment: "production"
+
+# options you can define, like --host, --hot, etc. See webpack encore and webpack documentation
+# yarn run encore --help
+# yarn run webpack --help
+encore_options: ""
+
+# if a cleanup of node_modules should happen
+do_cleanup: true

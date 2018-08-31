@@ -1,0 +1,6 @@
+---
+- name: Cleanup node_modules
+  file:
+    path: "{{encore_path}}node_modules/"
+    state: absent
+  when: do_cleanup
